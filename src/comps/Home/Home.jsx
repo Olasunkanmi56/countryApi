@@ -103,7 +103,7 @@ export default function Countries() {
                 required
                 value={searchText}
                 onChange={(e) => setSearchText(e.target.value)}
-                className="py-3 px-10 bg-gray-0 text-gray-600 placeholder-gray-600 w-80  rounded outline-none dark:text-gray-400 dark:placeholder-gray-400 dark:bg-gray-800 transition-all duration-200"
+                className="py-3 px-10 bg-gray-0 text-gray-600 placeholder-gray-600 w-64 md:w-80  rounded outline-none dark:text-gray-400 dark:placeholder-gray-400 dark:bg-gray-800 transition-all duration-200"
               />
               </div>
             </form>
